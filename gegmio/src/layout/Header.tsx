@@ -1,14 +1,11 @@
 "use client"
 import type { FunctionComponent } from "react"
 import { SidebarTrigger } from "@/components/ui/sidebar";
-import { usePathname } from "next/navigation";
 
 
 const Header: FunctionComponent = () => {
 
-    const pathName = usePathname();
-
-
+    
     return (
         <header className="border-b-2 border-b-[#242424] w-full flex justify-center bg-[#0F0F0F] sticky top-0 z-30 ">
             <div className="header_wrapper text-white flex justify-between items-center max-w-7xl w-full m-auto px-4 py-5 md:px-[100px]">

@@ -1,7 +1,5 @@
 import type { FunctionComponent } from "react"
 
-import { Calendar, ChartColumnBig, ClockFading, Users } from "lucide-react";
-
 
 
 const Opportunities: FunctionComponent = () => {
